@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+  a:active, a:focus {
+    outline: none;
+    text-decoration: none; }
+
+.half {
+  width: 50%;
+  float: left; }
+
+.wrapper {
+  background: url("../img/main.png") no-repeat center/cover;
+  padding: 1.5rem;
+  min-height: 1000px;
+  position: relative;
+  overflow: hidden; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.header-top {
+  text-align: center; }
+  .header-top__title {
+    color: #333333;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Parisienne', cursive; }
+  .header-top__separate {
+    padding: 1rem; }
+
+.header__title {
+  font-size: 36px;
+  font-family: 'Carter One', cursive;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center; }
+  .header__title-text {
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    text-align: center;
+    max-width: 450px;
+    margin: 10px auto; }
+
+.content .half {
+  padding: 1rem; }
+  .content .half .ticket {
+    background-color: #f7f7f7;
+    border: 1px solid #d0d9dd;
+    margin-top: 25px;
+    width: 400px;
+    text-align: center;
+    padding: 3.5rem 2rem;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 40px 5px #e7edef;
+    box-shadow: 0px 0px 40px 5px #e7edef; }
+    .content .half .ticket-clip {
+      position: absolute;
+      left: 50%;
+      top: -15px;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .content .half .ticket__quote {
+      font-size: 12px;
+      font-style: italic;
+      font-family: 'Parisienne', cursive;
+      line-height: 1.2;
+      max-width: 80%;
+      margin: auto; }
+    .content .half .ticket__separate {
+      padding: 1rem; }
+      .content .half .ticket__separate img {
+        width: 100%;
+        display: block; }
+    .content .half .ticket__title {
+      font-family: 'Carter One', cursive;
+      text-transform: uppercase; }
+    .content .half .ticket__content-text {
+      font-size: 18px;
+      font-family: 'PT Sans', sans-serif;
+      max-width: 85%;
+      margin: auto; }
+    .content .half .ticket__content-avatar img {
+      display: block;
+      width: 30%;
+      margin: 10px auto; }
+    .content .half .ticket__content-avatar .avatar-link {
+      color: #4d4d4d;
+      font-weight: bold;
+      font-size: 12px;
+      font-style: italic;
+      font-family: 'Parisienne', cursive; }
+
+.content:after {
+  content: '';
+  clear: both;
+  display: table; }
+
+.content-menu__name {
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+  margin: 10px 0; }
+
+.content-menu .menu__item {
+  background: url("../img/ellips.png") no-repeat 10px 12.5px;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 20px; }
+
+.content-button {
+  padding-top: 50px; }
+  .content-button .button-download {
+    background: #ff0000;
+    border: unset;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 441px;
+    height: 80px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.33);
+            box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.33); }
+    .content-button .button-download:focus, .content-button .button-download:active {
+      outline: none; }
+    .content-button .button-download span {
+      color: #ffffff;
+      font-size: 18px;
+      font-family: 'Paytone One', sans-serif;
+      font-weight: bold;
+      display: block;
+      padding: 0 45px; }
+
+.window {
+  position: relative;
+  min-height: -webkit-calc(100vh - 265px);
+  min-height: calc(100vh - 265px); }
+  .window .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+    .window .content__great {
+      width: 100%; }
+  .window .content-button {
+    text-align: center; }
+  .window .button-download {
+    background: #cc0000;
+    margin: auto; }
+    .window .button-download a {
+      padding: 0 40px; }
+
+.footer {
+  background: url("../img/footer.png") no-repeat 0 0/cover;
+  height: 265px;
+  padding-top: 3rem;
+  padding-bottom: 1rem; }
+  .footer .container {
+    height: 100%; }
+  .footer-col {
+    width: 400px;
+    height: 100%;
+    float: left; }
+    .footer-col:last-child .footer-list {
+      text-align: right;
+      color: #999999;
+      font-size: 18px;
+      font-family: 'PT Sans', sans-serif; }
+      .footer-col:last-child .footer-list li {
+        padding-bottom: 1rem; }
+        .footer-col:last-child .footer-list li a {
+          color: #999999;
+          display: block; }
+        .footer-col:last-child .footer-list li .politic {
+          color: #74a1d0;
+          border-bottom: 1px solid #74a1d0;
+          display: inline-block; }
+        .footer-col:last-child .footer-list li .number {
+          display: block; }
+    .footer-col:first-child {
+      background: #ffffff;
+      padding: 1rem;
+      position: relative; }
+      .footer-col:first-child .subscribe {
+        background: #e6ebf1;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        color: #ffffff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        text-align: center;
+        width: -webkit-calc(100% - 2rem);
+        width: calc(100% - 2rem); }
+        .footer-col:first-child .subscribe__link {
+          color: #6e7889;
+          font-family: 'PT Sans', sans-serif;
+          font-size: 1rem;
+          display: block;
+          padding: 0.5rem; }
+      .footer-col:first-child .subscribe-effect {
+        background: rgba(0, 0, 0, 0.51);
+        padding: 1rem;
+        opacity: 0;
+        -webkit-transition: 0.5s all ease-in-out;
+        -o-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; }
+        .footer-col:first-child .subscribe-effect__avatar img {
+          -webkit-border-radius: 50%;
+          border-radius: 50%; }
+    .footer-col:nth-of-type(2) {
+      padding: 0 2rem; }
+
+.facebook {
+  background: #ffffff;
+  height: 100%;
+  font-size: 10px;
+  font-family: 'PT Sans', sans-serif;
+  width: 225px;
+  margin: auto; }
+  .facebook-header {
+    background: #395a99;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.5rem; }
+    .facebook-header_text {
+      color: #ffffff; }
+    .facebook-header_logotype {
+      display: block;
+      width: 50px;
+      height: 18px;
+      line-height: 22px; }
+      .facebook-header_logotype img {
+        width: 100%; }
+  .facebook-personal {
+    padding: 0.5rem;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee; }
+    .facebook-personal .avatar, .facebook-personal .facebook-personal_text {
+      float: left;
+      display: inline-block; }
+    .facebook-personal .facebook-personal_text_likes {
+      font-family: 'PT Sans', sans-serif;
+      font-weight: bold; }
+      .facebook-personal .facebook-personal_text_likes .likes {
+        background: #ededf5;
+        border: 1px solid #eeeeee;
+        cursor: pointer;
+        color: #7f9dd8;
+        display: block;
+        font-family: 'PT Sans', sans-serif;
+        padding: 0.1rem;
+        text-align: center;
+        width: 100px; }
+      .facebook-personal .facebook-personal_text_likes .text {
+        height: 14px;
+        display: block;
+        overflow: hidden; }
+  .facebook-likes .count {
+    display: block;
+    text-align: center;
+    padding: 0.1rem; }
+  .facebook-likes .likes-users {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    width: 100%; }
+    .facebook-likes .likes-users-block {
+      width: 25%;
+      text-align: center; }

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CharterITC-ReguItalOS';
+  src: url('CharterITC-ReguItalOS.eot');
+  src: url('CharterITC-ReguItalOS.woff2') format('woff2'),
+       url('CharterITC-ReguItalOS.woff') format('woff'),
+       url('CharterITC-ReguItalOS.ttf') format('truetype'),
+       url('CharterITC-ReguItalOS.svg#CharterITC-ReguItalOS') format('svg'),
+       url('CharterITC-ReguItalOS.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
