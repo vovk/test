@@ -55,7 +55,7 @@ a {
 
 .header__title {
   font-size: 36px;
-  font-family: 'Carter One', cursive;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   text-transform: uppercase;
   text-align: center; }
@@ -98,7 +98,7 @@ a {
         width: 100%;
         display: block; }
     .content .half .ticket__title {
-      font-family: 'Carter One', cursive;
+      font-family: 'Roboto', sans-serif;
       text-transform: uppercase; }
     .content .half .ticket__content-text {
       font-size: 18px;
@@ -159,28 +159,20 @@ a {
     .content-button .button-download span {
       color: #ffffff;
       font-size: 18px;
-      font-family: 'Paytone One', sans-serif;
       font-weight: bold;
       display: block;
       padding: 0 45px; }
 
 .window {
   position: relative;
-  min-height: -webkit-calc(100vh - 265px);
-  min-height: calc(100vh - 265px); }
+  min-height: 750px; }
   .window .content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
+    padding-top: 100px; }
     .window .content__great {
       width: 100%; }
   .window .content-button {
     text-align: center; }
   .window .button-download {
-    background: #cc0000;
     margin: auto; }
     .window .button-download a {
       padding: 0 40px; }
